@@ -102,7 +102,7 @@ const NavWebFragment = ({
                 </div>
               </MenubarContent>
             </MenubarMenu> */}
-            <div className="space-x-3">
+            <div className="flex items-center space-x-3">
               <Button className=" bg-white border text-primary-blue  mx-2 border-primary-blue hover:bg-primary-blue hover:text-white">
                 {locale === "ar" ? "اشتراك" : "Signup"}
               </Button>

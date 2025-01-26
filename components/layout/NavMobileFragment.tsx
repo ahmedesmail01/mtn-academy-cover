@@ -93,6 +93,14 @@ Props) => {
                   </Button>
                 </div>
               </div>
+              <div className="flex items-center space-x-3">
+                <Button className=" bg-white border text-primary-blue  mx-2 border-primary-blue hover:bg-primary-blue hover:text-white">
+                  {locale === "ar" ? "اشتراك" : "Signup"}
+                </Button>
+                <Button className="bg-primary-blue border-primary-blue min-w-fit  hover:bg-primary-blue">
+                  {locale === "ar" ? "تسجيل الدخول" : "Login"}
+                </Button>
+              </div>
               {/* Mobile Notifications */}
               {/* <div className="flex items-center gap-2">
                 <Bell size={20} />
