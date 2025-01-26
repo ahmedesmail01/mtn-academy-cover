@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <div
       dir={locale === "ar" ? "rtl" : "ltr"}
-      className="w-full py-3 px-4 lg:py-[12px] lg:px-[16px] bg-[#F2F2F2] shadow-2xl"
+      className="w-full py-3 px-4 lg:py-[12px] lg:px-[16px] bg-[#F2F2F2] shadow-lg"
     >
       <NavMobileFragment
         handleLanguageChange={handleLanguageChange}
