@@ -9,6 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        customBlue: "rgba(160, 198, 239, 0.46)",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -23,10 +24,12 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
           blue: "#07519C",
+          lightBlue: "rgba(160, 198, 239, 0.46)",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          blue: "#017AFD",
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
