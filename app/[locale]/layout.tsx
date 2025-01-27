@@ -1,5 +1,6 @@
 // src/app/[locale]/layout.tsx
 
+import { Footer } from "@/components/layout/Footer";
 import Navbar from "../../components/layout/Navbar";
 import { Providers } from "../Providers";
 
@@ -33,6 +34,7 @@ export default async function LocaleLayout({
       <div className={`${locale === "ar" ? "font-cairo" : "font-poppins"}`}>
         {children}
       </div>
+      <Footer />
     </Providers>
   );
 }
