@@ -34,7 +34,7 @@ export default function HomeBanner() {
 
         <div className="flex flex-col w-full md:w-1/2 lg:w-[40%] justify-center">
           <div className="relative">
-            <h1 className="text-2xl md:text-4xl font-bold">
+            <h1 className="text-2xl lg:text-4xl font-bold">
               Take the next step toward your{" "}
               <span className="text-secondary-blue">Career</span>
             </h1>

@@ -1,6 +1,5 @@
 // components/ui/home/MainCarousel.tsx
 "use client";
-
 import * as React from "react";
 import Image from "next/image";
 import { useEffect } from "react";

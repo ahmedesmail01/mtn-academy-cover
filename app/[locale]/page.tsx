@@ -5,6 +5,7 @@ import HomeContent from "@/components/common/home/HomeContent";
 import FreeStudySection from "@/components/common/home/FreeStudySection";
 import HomeBanner from "@/components/common/home/Banner";
 import OurDiplomas from "@/components/common/home/OurDiplomas";
+import Feedbacks from "@/components/common/home/Feedbacks";
 
 export default function Page() {
   return (
@@ -14,6 +15,7 @@ export default function Page() {
       <FreeStudySection />
       <HomeBanner />
       <OurDiplomas />
+      <Feedbacks />
     </div>
   );
 }
