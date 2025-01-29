@@ -4,8 +4,8 @@ import * as React from "react";
 import HomeContent from "@/components/common/home/HomeContent";
 import FreeStudySection from "@/components/common/home/FreeStudySection";
 import HomeBanner from "@/components/common/home/Banner";
-import OurDiplomas from "@/components/common/home/OurDiplomas";
-import Feedbacks from "@/components/common/home/Feedbacks";
+// import OurDiplomas from "@/components/common/home/OurDiplomas";
+// import Feedbacks from "@/components/common/home/Feedbacks";
 
 export default function Page() {
   return (
@@ -14,8 +14,6 @@ export default function Page() {
       <HomeContent />
       <FreeStudySection />
       <HomeBanner />
-      <OurDiplomas />
-      <Feedbacks />
     </div>
   );
 }
